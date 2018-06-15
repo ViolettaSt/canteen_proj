@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Muller Thin DEMO';
+	src: url('MullerThinDEMO.eot');
+	src: local('Muller Thin DEMO'), local('MullerThinDEMO'),
+		url('MullerThinDEMO.eot?#iefix') format('embedded-opentype'),
+		url('MullerThinDEMO.woff') format('woff'),
+		url('MullerThinDEMO.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('MullerExtraBoldDEMO.eot');
+	src: local('Muller ExtraBold DEMO'), local('MullerExtraBoldDEMO'),
+		url('MullerExtraBoldDEMO.eot?#iefix') format('embedded-opentype'),
+		url('MullerExtraBoldDEMO.woff') format('woff'),
+		url('MullerExtraBoldDEMO.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}

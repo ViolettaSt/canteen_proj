@@ -1,0 +1,329 @@
+/*==========  Desktop First Method  ==========*/
+
+
+@media only screen and (min-width : 2301px) {
+  .cook {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width : 2001px) and (max-width : 2300px){
+  .cook {
+    margin-top: -5%;
+  }
+}
+
+@media only screen and (min-width : 1801px) and (max-width : 2000px){
+  .cook {
+    margin-top: -10%;
+  }
+}
+
+@media only screen and (min-width : 1601px) and (max-width : 1800px){
+  .cook {
+    margin-top: -14%;
+  }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1600px){
+  .cook {
+    margin-top: -18%;
+  }
+}
+
+@media only screen and (min-width : 1026px) and (max-width : 1215px) {
+  .cook {
+    margin-top: -30%;
+  }
+}
+
+@media only screen and (min-width : 1026px) {
+  .pr-content-2 {
+    padding-top: 25px;
+  }
+
+  .pr-content-4 {
+    padding-top: 30px;
+  }
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 993px) and (max-width : 1200px) {
+  .price {
+    width: 90px;
+    height: 90px;
+  }
+  .digit {
+     font-size: 20px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1025px) {
+
+  .h-org {
+    font-size: 45px;
+    width: 100%;
+  }
+  .cook h1 {
+    font-size: 45px;
+  }
+
+  .flex-meals {
+    background-image: url("../img/bg-yll-phone.png");
+  }
+
+  .price-4, .price-5, .price-6, .price-7 {
+    display: none;
+  }
+
+  .price-1 {
+   margin-top: 30%;
+   margin-left: -10%;
+  }
+
+  .price-2 {
+  margin-left: 18%;
+  margin-top: -1.5%;
+  }
+
+  .price-3 {
+    margin-top: 30%;
+    margin-right: 5%;
+  }
+
+  .flex-cook {
+    flex-wrap: wrap;
+  }
+
+  .paragraph {
+    order: 1;
+    text-align: center;
+  /* margin-left: 50px; */
+  }
+  .cook-image {
+    order: 3;
+  }
+  .fl-info {
+    order: 2;
+  }
+
+
+
+
+
+.flex-addr {
+  flex-wrap: wrap;
+}
+
+.flex-addr .self-item {
+  display: none;
+}
+
+.flex-footer nav {
+  display: none;
+}
+
+
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+
+  .flex-cook {
+    position: relative;
+  }
+
+  .fl-info {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+
+  .paragraph {
+    padding-top: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .header-top nav li {
+    margin-right: 0;
+  }
+
+  .phone {
+    font-size: 15px;
+  }
+
+  .top-addr {
+    font-size: 9px;
+    margin-right: 0;
+  }
+  .h-org {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .cook {
+    margin-top: -30%;
+  }
+
+  .cook h1 {
+    font-size: 30px;
+  }
+
+  .street::before {
+    left: -10px;
+  }
+  .footer-phone {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width : 590px)  {
+
+
+
+}
+
+@media only screen and (max-width : 539px) {
+  .flex-addr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cook {
+    margin-top: -100%;
+  }
+  .maps {
+    margin-top: -40%;
+  }
+}
+
+@media only screen and (min-width : 416px) and (max-width : 500px){
+  .cook {
+    margin-top: -70%;
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .h-org {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .cook h1 {
+    font-size: 20px;
+  }
+
+  .cook h1 {
+    font-size: 30px;
+}
+
+  .flex-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .price {
+    width: 80px;
+    height: 80px;
+  }
+  .digit {
+     font-size: 15px;
+  }
+
+  .flex-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-list {
+    margin-left: -5px;
+  }
+
+  .second-list {
+      padding-right: 60px;
+  }
+
+  .maps {
+    margin-top: -45%;
+  }
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .h-org {
+    font-size: 25px;
+    width: 100%;
+  }
+  .cook h1 {
+    font-size: 25px;
+}
+.first-list {
+  margin-right: 40px;
+}
+
+.second-list {
+  padding-right: 30px;
+}
+
+.price {
+  width: 70px;
+  height: 70px;
+}
+.digit {
+   font-size: 11px;
+}
+
+
+.paragraph {
+  margin-right: 0;
+}
+
+.maps {
+  margin-top: -60%;
+}
+
+.cook {
+  margin-top: -130%;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
